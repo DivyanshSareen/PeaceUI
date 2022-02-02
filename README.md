@@ -1,2 +1,2 @@
 # PeaceUI
-CSS Component Library
+CSS Component Framework
