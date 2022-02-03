@@ -27,6 +27,8 @@
   --alert: #EE021A;
   --background-grey: #efefef; */
 
+/* badges depicting specific status */
+
 .badge-primary{
     background: var(--primary);
 }
@@ -46,3 +48,4 @@
 .badge-danger{
     background: var(--danger);
 }
+
