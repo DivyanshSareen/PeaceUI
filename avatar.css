@@ -1,5 +1,7 @@
+/* resets browser defaults */
 @import "./reset.css";
 
+/* adds basic styling */
 @import "./style-guide.css";
 
 /* AVATAR */

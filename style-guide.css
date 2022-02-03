@@ -35,9 +35,12 @@
   --radius-full: 999px;
 
   /* color */
+  /* ever feel stuck? go to https://material.io/design/color/the-color-system.html#tools-for-picking-colors */
   --primary: #6002EE;
-  --secondart: #d602ee;
-  --alert: #EE021A;
+  --secondary: #d602ee;
+  --success: #41C300;
+  --warning: #EE6002;
+  --danger: #EE021A;
   --background-grey: #efefef;
 }
 

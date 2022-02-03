@@ -1,0 +1,48 @@
+/* resets browser defaults */
+@import "./reset.css";
+
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* BADGE */
+
+/* common style */
+.badge {
+    background: var(--primary);
+    color: var(--background-grey);
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: var(--bold);
+    border-radius: 0.25rem;
+    line-height: 1;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+  /* --primary: #6002EE;
+  --secondary: #d602ee;
+  --success: #90EE02;
+  --warning: #EE6002;
+  --alert: #EE021A;
+  --background-grey: #efefef; */
+
+.badge-primary{
+    background: var(--primary);
+}
+
+.badge-secondary{
+    background: var(--secondary);
+}
+
+.badge-success{
+    background: var(--success);
+}
+
+.badge-warning{
+    background: var(--warning);
+}
+
+.badge-danger{
+    background: var(--danger);
+}
