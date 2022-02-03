@@ -2,3 +2,166 @@
 
 @import "./style-guide.css";
 
+/* AVATAR */
+
+/*-- Default Avatar --*/
+.avatar{
+    width: 50px;
+    height: 50px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* sizes for default avatar */
+/* small default avatar */
+
+.avatar-s{
+    width: 30px;
+    height: 30px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* medium default avatar */
+
+.avatar-m{
+    width: 50px;
+    height: 50px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* large default avatar */
+
+.avatar-l{
+    width: 72px;
+    height: 72px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* extra large default avatar */
+
+.avatar-xl{
+    width: 96px;
+    height: 96px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* idk extra extra large default avatar */
+
+.avatar-xxl{
+    width: 128px;
+    height: 128px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/*-- Circle Avatar --*/
+.avatar-circle{
+    width: 50px;
+    height: 50px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* sizes for circle avatar */
+/* small circle avatar */
+
+.avatar-circle-s{
+    width: 30px;
+    height: 30px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* medium circle avatar */
+
+.avatar-circle-m{
+    width: 50px;
+    height: 50px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* large circle avatar */
+
+.avatar-circle-l{
+    width: 72px;
+    height: 72px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* extra large circle avatar */
+
+.avatar-circle-xl{
+    width: 96px;
+    height: 96px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/* idk extra extra large circle avatar */
+
+.avatar-circle-xxl{
+    width: 128px;
+    height: 128px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-full);
+}
+
+/*-- Square Avatar --*/
+.avatar-square{
+    width: 50px;
+    height: 50px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-m);
+}
+
+/* sizes for square avatar */
+/* small square avatar */
+
+.avatar-square-s{
+    width: 30px;
+    height: 30px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-m);
+}
+
+/* medium square avatar */
+
+.avatar-square-m{
+    width: 50px;
+    height: 50px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-m);
+}
+
+/* large square avatar */
+
+.avatar-square-l{
+    width: 72px;
+    height: 72px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-m);
+}
+
+/* extra large square avatar */
+
+.avatar-square-xl{
+    width: 96px;
+    height: 96px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-m);
+}
+
+/* idk extra extra large square avatar */
+
+.avatar-square-xxl{
+    width: 128px;
+    height: 128px;
+    margin: var(--margin-s);
+    border-radius: var(--radius-m);
+}
