@@ -1,0 +1,189 @@
+/* contains style guide for the desing system */
+
+/* css variables */
+
+:root {
+
+  /* font weight */
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --black: 900;
+
+  /* margin */
+  --margin-xs: 8px;
+  --margin-s: 16px;
+  --margin-m: 24px;
+  --margin-l: 32px;
+  --margin-xl: 40px;
+  --margin-xxl: 64px;
+
+  /* padding */
+  --padding-xs: 8px;
+  --padding-s: 16px;
+  --padding-m: 24px;
+  --padding-l: 32px;
+  --padding-xl: 40px;
+  --padding-xxl: 64px;
+
+  /* border radius */
+  --radius-s: 5px;
+  --radius-m: 10px;
+  --radius-l: 15px;
+  --radius-full: 999px;
+
+  /* color */
+  --primary: #6002EE;
+  --secondart: #d602ee;
+  --alert: #EE021A;
+  --background-grey: #efefef;
+}
+
+/* background */
+
+body{
+    background: var(--background-grey);
+}
+
+/* typography */
+
+/* type scale */
+.h1{
+    font-size: 96px;
+    font-weight: var(--light);
+    letter-spacing: -1.5px;
+}
+
+.h2{
+    font-size: 60px;
+    font-weight: var(--light);
+    letter-spacing: 0.5px;
+}
+
+.h3{
+    font-size: 48px;
+    font-weight: var(--regular);
+    letter-spacing: 0px;
+}
+
+.h4{
+    font-size: 34px;
+    font-weight: var(--regular);
+    letter-spacing: 0.25px;
+}
+
+.h5{
+    font-size: 24px;
+    font-weight: var(--regular);
+    letter-spacing: 0px;
+}
+
+.h6{
+    font-size: 20px;
+    font-weight: var(--medium);
+    letter-spacing: 0.25px;    
+}
+
+.sub-title1{
+    font-size: 16px;
+    font-weight: var(--regular);
+    letter-spacing: 0.15px;
+}
+
+.sub-title2{
+    font-size: 14px;
+    font-weight: var(--medium);
+    letter-spacing: 0.1px;
+}
+
+.paragraph1{
+    font-size: 16px;
+    font-weight: var(--regular);
+    letter-spacing: 0.5px;    
+}
+
+.paragraph2{
+    font-size: 14px;
+    font-weight: var(--regular);
+    letter-spacing: 0.25px;    
+}
+
+.button{
+    font-size: 14px;
+    font-weight: var(--medium);
+    text-transform: uppercase;
+    letter-spacing: 1.25px; 
+}
+
+/* spacing(margin) */
+
+.margin-xs{
+    margin: var(--margin-xs);
+}
+
+.margin-s{
+    margin: var(--margin-s);
+}
+
+.margin-m{
+    margin: var(--margin-m);
+}
+
+.margin-l{
+    margin: var(--margin-l);
+}
+
+.margin-xl{
+    margin: var(--margin-xl);
+}
+
+.margin-xxl{
+    margin: var(--margin-xll);
+}
+
+/* spacing(padding) */
+
+.padding-xs{
+    padding: var(--padding-xs);
+}
+
+.padding-s{
+    padding: var(--padding-s);
+}
+
+.padding-m{
+    padding: var(--padding-m);
+}
+
+.padding-l{
+    padding: var(--padding-l);
+}
+
+.padding-xl{
+    padding: var(--padding-xl);
+}
+
+.padding-xxl{
+    padding: var(--padding-xxl);
+}
+
+/* border-radius */
+
+.border-radius-s{
+    border-radius: var(--radius-s);
+}
+
+.border-radius-m{
+    border-radius: var(--radius-m);
+}
+
+.border-radius-l{
+    border-radius: var(--radius-l);
+}
+
+.border-radius-full{
+    border-radius: var(--radius-full);
+}
+
