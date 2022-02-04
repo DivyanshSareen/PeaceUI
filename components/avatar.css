@@ -20,8 +20,6 @@
 .avatar-s{
     width: 30px;
     height: 30px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* medium default avatar */
@@ -29,8 +27,6 @@
 .avatar-m{
     width: 50px;
     height: 50px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* large default avatar */
@@ -38,8 +34,6 @@
 .avatar-l{
     width: 72px;
     height: 72px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* extra large default avatar */
@@ -47,8 +41,6 @@
 .avatar-xl{
     width: 96px;
     height: 96px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* idk extra extra large default avatar */
@@ -56,16 +48,12 @@
 .avatar-xxl{
     width: 128px;
     height: 128px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /*-- Circle Avatar --*/
 .avatar-circle{
     width: 50px;
     height: 50px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* sizes for circle avatar */
@@ -74,8 +62,6 @@
 .avatar-circle-s{
     width: 30px;
     height: 30px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* medium circle avatar */
@@ -83,8 +69,6 @@
 .avatar-circle-m{
     width: 50px;
     height: 50px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* large circle avatar */
@@ -92,8 +76,6 @@
 .avatar-circle-l{
     width: 72px;
     height: 72px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* extra large circle avatar */
@@ -101,8 +83,6 @@
 .avatar-circle-xl{
     width: 96px;
     height: 96px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /* idk extra extra large circle avatar */
@@ -110,15 +90,12 @@
 .avatar-circle-xxl{
     width: 128px;
     height: 128px;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
 }
 
 /*-- Square Avatar --*/
 .avatar-square{
     width: 50px;
     height: 50px;
-    margin: var(--margin-s);
     border-radius: var(--radius-m);
 }
 
@@ -128,7 +105,6 @@
 .avatar-square-s{
     width: 30px;
     height: 30px;
-    margin: var(--margin-s);
     border-radius: var(--radius-m);
 }
 
@@ -137,7 +113,6 @@
 .avatar-square-m{
     width: 50px;
     height: 50px;
-    margin: var(--margin-s);
     border-radius: var(--radius-m);
 }
 
@@ -146,7 +121,6 @@
 .avatar-square-l{
     width: 72px;
     height: 72px;
-    margin: var(--margin-s);
     border-radius: var(--radius-m);
 }
 
@@ -155,7 +129,6 @@
 .avatar-square-xl{
     width: 96px;
     height: 96px;
-    margin: var(--margin-s);
     border-radius: var(--radius-m);
 }
 
@@ -164,6 +137,5 @@
 .avatar-square-xxl{
     width: 128px;
     height: 128px;
-    margin: var(--margin-s);
     border-radius: var(--radius-m);
 }
