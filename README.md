@@ -9,3 +9,5 @@ CSS Component Framework
 ### Badge Component
 
 ![image](https://user-images.githubusercontent.com/59335572/152366655-54edb79f-5620-4839-bf99-2be587e5bfa7.png)
+
+### Alert Component
