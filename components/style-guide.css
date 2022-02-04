@@ -36,12 +36,34 @@
 
   /* color */
   /* ever feel stuck? go to https://material.io/design/color/the-color-system.html#tools-for-picking-colors */
-  --primary: #6002EE;
-  --secondary: #d602ee;
-  --success: #41C300;
-  --warning: #EE6002;
-  --danger: #EE021A;
+
   --background-grey: #efefef;
+
+  --primary: #6002EE;
+  --primary-100: #d8c5f9;
+  --primary-900: #0000D6;
+
+  --secondary: #d602ee;
+
+  --info: #0290EE;
+  --info-100: #bfdff9;
+  --info-900: #00419D;
+
+  --success: #41C300;
+  --success-200: #d1f7a3;
+  --success-1000: #006f00;
+
+  --warning: #FF8D00;
+  --warning-100: #FFDDB0;
+  --warning-900: #E54304;
+
+  /* 
+  https://www.canva.com/colors/color-wheel/
+  (tetradic)
+  */
+  --danger: #EE021A;
+  --danger-100: #FFC8CD;
+  --danger-900: #C20000;
 }
 
 /* background */

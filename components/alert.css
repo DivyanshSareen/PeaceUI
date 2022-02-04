@@ -1,0 +1,49 @@
+/* resets browser defaults */
+@import "./reset.css";
+
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* ALERT */
+
+.alert{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.8em;
+
+    background: var(--primary-100);
+    border-radius: var(--radius-s);
+    width: auto;
+    padding: var(--padding-s);
+    margin: var(--margin-s);
+
+    color: var(--primary-900);
+    font-size: 0.75rem;
+    font-weight: var(--regular);
+    letter-spacing: 0.25px;  
+}
+
+.alert-action{
+    margin-left: auto;
+}
+
+.alert-info{
+    background: var(--info-100);
+    color: var(--info-900);
+}
+
+.alert-success{
+    background: var(--success-200);
+    color: var(--success-1000);
+}
+
+.alert-warning{
+    background: var(--warning-100);
+    color: var(--warning-900);
+}
+
+.alert-danger{
+    background: var(--danger-100);
+    color: var(--danger-900);
+}
