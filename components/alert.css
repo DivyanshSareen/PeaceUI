@@ -6,6 +6,8 @@
 
 /* ALERT */
 
+/* default alert properties */
+
 .alert{
     display: flex;
     flex-direction: row;
@@ -24,24 +26,34 @@
     letter-spacing: 0.25px;  
 }
 
+/* alert actions shift to right */
+
 .alert-action{
     margin-left: auto;
 }
+
+/* information alert */
 
 .alert-info{
     background: var(--info-100);
     color: var(--info-900);
 }
 
+/* success alert */
+
 .alert-success{
     background: var(--success-200);
     color: var(--success-1000);
 }
 
+/* warning alert */
+
 .alert-warning{
     background: var(--warning-100);
     color: var(--warning-900);
 }
+
+/* danger alert sheeeesh */
 
 .alert-danger{
     background: var(--danger-100);
