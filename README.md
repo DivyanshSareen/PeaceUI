@@ -12,4 +12,4 @@ CSS Component Framework
 
 ### Alert Component
 
-<img width="464" alt="image" src="https://user-images.githubusercontent.com/59335572/152637339-5c57ef46-589c-48c0-803e-4c490261f948.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/59335572/152570008-2ea00b76-7a80-4baa-841b-18d1b5d49d29.png">
