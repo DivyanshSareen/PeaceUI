@@ -1,0 +1,41 @@
+/* resets browser defaults */
+@import "./reset.css";
+
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* BUTTON */
+
+/* default button style */
+.btn{
+    margin: var(--margin-xs);
+    padding: var(--padding-xs);
+
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 4px;
+    
+    color: var(--background-grey);
+    background: var(--primary);
+}
+
+/* primary button(same as default) */
+.btn-primary{
+    background: var(--primary);
+}
+
+/* secondary button */
+.btn-secondary{
+    background: var(--secondary);
+}
+
+/* success button(real deal ngl) */
+.btn-success{
+    background: var(--success);
+}
+
+/* danger button */
+.btn-danger{
+    background: var(--danger);
+}
