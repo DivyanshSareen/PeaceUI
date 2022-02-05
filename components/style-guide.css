@@ -65,8 +65,8 @@
 
   /* default niche colours here */
   --background-grey: #efefef;
-  /* border of button also known as lightslategray cool imma right*/
-  /* --btn-border: #778899;   */
+  --grey: #808080;
+  --grey-800: #4C4C4C;
 }
 
 /* background */
