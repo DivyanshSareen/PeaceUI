@@ -1,0 +1,175 @@
+/* resets browser defaults */
+@import "./reset.css";
+
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* BUTTON */
+
+/*-- Default Button --*/
+/* default button style */
+.btn, .btn[disabled=disabled], .btn:disabled{
+    margin: var(--margin-xs);
+    padding: var(--padding-xs);
+
+    text-transform: uppercase;
+
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+
+    color: var(--background-grey);
+    background: var(--primary);
+
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+
+    cursor: pointer;
+}
+
+/* default button hover effect */
+.btn:hover{
+    background: var(--background-grey);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+/* default button click effect */
+.btn:active{
+    background: var(--primary);
+    color: var(--background-grey);
+    border: 1px solid var(--primary);
+}
+
+/*-- Primary Button(same as default) --*/
+/* primart button style */
+.btn-primary{
+    background: var(--primary);
+}
+
+/*-- Secondary Button --*/
+/* secondary button style */
+.btn-secondary{
+    background: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+/* secondary button hover effect */
+.btn-secondary:hover{
+    background: var(--background-grey);
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+/* secondary button click effect */
+.btn-secondary:active{
+    background: var(--secondary);
+    color: var(--background-grey);
+    border: 1px solid var(--secondary);
+}
+
+/*-- Success Button(real deal ngl) --*/
+/* success button style */
+.btn-success{
+    background: var(--success);
+    border: 1px solid var(--success);
+}
+
+/* success button hover effect */
+.btn-success:hover{
+    background: var(--background-grey);
+    color: var(--success);
+    border: 1px solid var(--success);
+}
+
+/* success button click effect */
+.btn-success:active{
+    background: var(--success);
+    color: var(--background-grey);
+    border: 1px solid var(--success);
+}
+
+/*-- Danger Button --*/
+/* danger button style */
+.btn-danger{
+    background: var(--danger);
+    border: 1px solid var(--danger);
+}
+
+/* danger button hover effect */
+.btn-danger:hover{
+    background: var(--background-grey);
+    color: var(--danger);
+    border: 1px solid var(--danger);
+}
+
+/* danger button click effect */
+.btn-danger:active{
+    background: var(--danger);
+    color: var(--background-grey);
+    border: 1px solid var(--danger);
+}
+
+/*-- Disabled Buttons --*/
+
+/* default */
+.btn[disabled=disabled], .btn:disabled{
+    background: var(--primary);
+    color: var(--grey);
+    cursor: no-drop;
+}
+
+.btn[disabled=disabled]:hover, .btn:disabled:hover{
+    background: var(--primary);
+    color: var(--primary);
+    background: var(--grey);
+}
+
+/* primary */
+.btn-primary[disabled=disabled], .btn-primary:disabled{
+    background: var(--primary);
+    color: var(--grey);
+}
+
+.btn-primary[disabled=disabled]:hover, .btn-primary:disabled:hover{
+    background: var(--primary);
+    color: var(--primary);
+    background: var(--grey);
+}
+
+/* secondary */
+.btn-secondary[disabled=disabled], .btn-secondary:disabled{
+    background: var(--secondary);
+    /* darker grey for contrast */
+    color: var(--grey-800);
+    /* need to rewrite the below statement for every type of button */
+    border: 1px solid var(--secondary);
+}
+
+.btn-secondary[disabled=disabled]:hover, .btn-secondary:disabled:hover{
+    color: var(--secondary);
+    background: var(--grey);
+}
+
+/* success */
+.btn-success[disabled=disabled], .btn-success:disabled{
+    background: var(--success);
+    color: var(--grey);
+    border: 1px solid var(--success);
+}
+
+.btn-success[disabled=disabled]:hover, .btn-success:disabled:hover{
+    color: var(--success);
+    background: var(--grey);
+}
+
+/* danger */
+.btn-danger[disabled=disabled], .btn-danger:disabled{
+    background: var(--danger);
+    color: var(--grey);
+    border: 1px solid var(--danger);
+}
+
+.btn-danger[disabled=disabled]:hover, .btn-danger:disabled:hover{
+    background: var();
+    color: var(--danger);
+    background: var(--grey);
+}
