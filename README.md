@@ -16,5 +16,5 @@ CSS Component Framework
 
 ### Button Component
 
-<img width="455" alt="image" src="https://user-images.githubusercontent.com/59335572/152632004-40c3f433-9a55-43aa-b673-f09293c6e5fd.png">
+<img width="464" alt="image" src="https://user-images.githubusercontent.com/59335572/152637787-a4857853-f8ca-4319-9df9-18ca3dd79951.png">
 
