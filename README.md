@@ -13,3 +13,8 @@ CSS Component Framework
 ### Alert Component
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/59335572/152570008-2ea00b76-7a80-4baa-841b-18d1b5d49d29.png">
+
+### Button Component
+
+<img width="455" alt="image" src="https://user-images.githubusercontent.com/59335572/152632004-40c3f433-9a55-43aa-b673-f09293c6e5fd.png">
+
