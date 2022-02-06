@@ -10,6 +10,7 @@
         .container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
         }
     </style>
     <title>Testing area kun</title>
@@ -17,7 +18,7 @@
 
 <body>
     <div class="container">
-        <div class="card">
+        <div class="card horizontal-card">
             <div class="card-header">
                 <div class="card-title">Tilte</div>
                 <div class="card-subtitle">Sub-title</div>
@@ -32,6 +33,15 @@
             <div class="card-action">
                 <button class="btn">button</button>
                 <button class="btn">button</button>
+            </div>
+        </div>
+        <div class="text-card card">
+            <div class="card-header">
+                <div class="card-title">Tilte</div>
+                <div class="card-subtitle">Sub-title</div>
+            </div>
+            <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus nobis a
+                debitis reiciendis dignissimos.
             </div>
         </div>
         <div class="card">
@@ -51,14 +61,15 @@
                 <button class="btn">button</button>
             </div>
         </div>
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">Tilte</div>
-                <div class="card-subtitle">Sub-title</div>
-            </div>
+        <div class="card image-head-card">
+
             <div class="card-img">
                 <img src="https://images.pexels.com/photos/10310278/pexels-photo-10310278.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
                     alt="card-image">
+            </div>
+            <div class="card-header">
+                <div class="card-title">Tilte</div>
+                <div class="card-subtitle">Sub-title</div>
             </div>
             <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus nobis a
                 debitis reiciendis dignissimos.
@@ -68,7 +79,7 @@
                 <button class="btn">button</button>
             </div>
         </div>
-        <div class="card">
+        <div class="card overlay-card">
             <div class="card-header">
                 <div class="card-title">Tilte</div>
                 <div class="card-subtitle">Sub-title</div>
