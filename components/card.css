@@ -4,7 +4,7 @@
 /* adds basic styling */
 @import "./style-guide.css";
 
-/* buttons component need */
+/* buttons component needed */
 @import "./button.css";
 
 /* CARD */
@@ -66,7 +66,7 @@
     margin-left: auto;
 }
 
-/*-- Text-ony Card --*/
+/*-- Text-only Card --*/
 
 .text-card{
     grid-template-rows: [head]5em [text]5em;
