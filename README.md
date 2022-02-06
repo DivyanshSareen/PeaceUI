@@ -18,3 +18,6 @@ CSS Component Framework
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/59335572/152637787-a4857853-f8ca-4319-9df9-18ca3dd79951.png">
 
+### Card Component
+
+![image](https://user-images.githubusercontent.com/59335572/152681354-a265f063-823b-43fb-8aaa-cca3b73f7c05.png)

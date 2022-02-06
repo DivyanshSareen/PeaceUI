@@ -1,0 +1,137 @@
+/* resets browser defaults */
+@import "./reset.css";
+
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* buttons component needed */
+@import "./button.css";
+
+/* CARD */
+
+/*-- Default Card --*/
+.card{
+    margin: var(--margin-xs);
+    display: grid;
+    justify-content: center;
+    /* default card must have all 4 sections */
+    grid-template-rows: [head]5em [img]10em [text]4em [button]3em;
+    /* https://codepen.io/sdthornton/pen/wBZdXq */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: var(--radius-s);
+}
+
+/* default card header style */
+
+.card-header{
+    justify-self: start;
+    padding: 1em;
+}
+
+.card-title{
+    /* typography same as .h4(check style-guide) */
+    font-size: 2.125rem;
+    font-weight: var(--regular);
+    letter-spacing: 0.25px;
+}
+
+.card-subtitle{
+    /* typography same as .sub-title2(check style-guide) */
+    font-size: 0.875rem;
+    font-weight: var(--medium);
+    letter-spacing: 0.1px;
+}
+
+/* default card image style */
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* default card content style */
+
+.card-content{
+    padding: 1em;
+    /* typography same as .paragraph2(check style-guide) */
+    font-size: 0.875rem;
+    font-weight: var(--regular);
+    letter-spacing: 0.25px;  
+}
+
+/* default card action style */
+
+.card-action{
+    margin-left: auto;
+}
+
+/*-- Text-only Card --*/
+
+.text-card{
+    grid-template-rows: [head]5em [text]5em;
+}
+
+/*-- Horizontal Card --*/
+
+/* defining a horizontal grid area */
+.horizontal-card{
+    grid-template-rows: none;
+    grid-template-areas: 
+    "image image head head"
+    "image image content content"
+    "image image action action"
+    ; 
+}
+
+/* naming each section */
+.horizontal-card .card-header{
+    padding-bottom: 0.5rem;
+    grid-area: head;
+}
+
+.horizontal-card .card-img{
+    grid-area: image;
+}
+
+.horizontal-card .card-content{
+    grid-area: content;
+}
+
+.horizontal-card .card-action{
+    grid-area: action;
+}
+
+/*-- Card with image on top(the dog with the butter on it) --*/
+
+.image-head-card{
+    grid-template-rows: [img]10em [head]5em  [text]4em [button]3em;
+}
+
+.image-head-card .card-img img{
+    border-radius: var(--radius-s) var(--radius-s) 0 0;
+}
+
+/*-- Card with Text Overlay --*/
+
+.overlay-card .card-img{
+    /* grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    ===
+    grid-area: 1 / 1 / 3 / 2;    
+    */
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.overlay-card .card-header{
+    color: var(--background-grey);
+    align-self: end;
+    grid-area: 1 / 1 / 3 / 2;
+    z-index: 1;
+}
+
+.overlay-card .card-img img{
+    border-radius: var(--radius-s) var(--radius-s) 0 0;
+}
