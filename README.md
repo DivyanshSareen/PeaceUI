@@ -21,3 +21,8 @@ CSS Component Framework
 ### Card Component
 
 ![image](https://user-images.githubusercontent.com/59335572/152681354-a265f063-823b-43fb-8aaa-cca3b73f7c05.png)
+
+### Image Component
+
+![image](https://user-images.githubusercontent.com/59335572/152754109-0ce0740d-3ee9-4c8f-891b-556227e99d4a.png)
+
