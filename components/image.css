@@ -1,0 +1,28 @@
+/* resets browser defaults */
+@import "./reset.css";
+
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* IMAGE */
+
+/*-- Responsive Image --*/
+/* div will take dimensions of parent */
+.resp-img{
+    width: auto;
+    height: auto;
+}
+
+/* image will scale, but will not go beyond original width */
+.resp-img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*-- Round Responsive Image --*/
+.round-resp-img img{
+    /* image width and height should be same to get a circle */
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
