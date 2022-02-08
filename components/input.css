@@ -1,0 +1,78 @@
+/* resets browser defaults */
+@import "./reset.css";
+
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* INPUT */
+
+/*-- Default Input(employs primary color) --*/
+/* .input: div that wraps input and label */
+.input{
+    margin: var(--margin-xs);
+    display: grid;
+    grid-template-rows: [label]0.8fr [input]1fr;
+}
+
+/* default text style */
+.input-data{
+    padding: var(--padding-xs) var(--padding-xs);
+    font-size: 1.2rem; 
+    border: var(--input-border) grey;
+    border-radius: var(--radius-s);
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+/* default label style */
+.input-label{
+    font-weight: var(--semi-bold);
+}
+
+/* default input focus */
+.input-data:focus {
+    outline: none;
+    border: var(--input-border) var(--primary);
+}
+
+/* default label focus */
+.input:focus-within label{
+    color: var(--primary);
+}
+
+/* invalid input style */
+.input-data:invalid:focus{
+    color: var(--danger);
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50%;
+}
+
+/* TEXTAREA */
+
+/* text area layout */
+.text-area{
+    margin: var(--margin-xs);
+    display: grid;
+    grid-template-rows: [label]0.2fr [textarea]1fr;
+}
+
+/* text area input */
+.textarea-data{
+    padding: var(--padding-xs);
+    border: var(--input-border) var(--grey);
+    border-radius: var(--radius-s);
+}
+
+/* text area label */
+.textarea-label{
+    font-weight: var(--semi-bold);
+}
+
+/* text area focus */
+.textarea-data:focus {
+    outline: none;
+    border: var(--input-border) var(--primary);
+}
+
+/* text area focus for label */
+.text-area:focus-within label{
+    color: var(--primary);
+}

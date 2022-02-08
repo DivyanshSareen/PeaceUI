@@ -67,6 +67,9 @@
   --background-grey: #efefef;
   --grey: #808080;
   --grey-800: #4C4C4C;
+
+  /* frequently used borders */
+  --input-border: 2px solid;
 }
 
 /* background */
