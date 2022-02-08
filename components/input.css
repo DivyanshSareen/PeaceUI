@@ -42,7 +42,7 @@
 /* invalid input style */
 .input-data:invalid:focus{
     color: var(--danger);
-    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50%;
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") white no-repeat 95% 50%;
 }
 
 /* TEXTAREA */
