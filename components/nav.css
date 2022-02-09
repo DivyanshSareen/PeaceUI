@@ -8,7 +8,7 @@
     color: var(--background-grey);
     display: flex;
     flex-wrap: wrap;
-    padding: var(--padding-m) var(--padding-l) var(--padding-m) var(--padding-l);
+    padding: var(--padding-s) var(--padding-l) var(--padding-s) var(--padding-l);
     align-items: center;
     position: fixed;
     width: 100vw;
