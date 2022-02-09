@@ -30,4 +30,7 @@ CSS Component Framework
 
 ![image](https://user-images.githubusercontent.com/59335572/153117509-360b5069-ac8d-4ba8-b63a-aa53d18f7e5b.png)
 
+### Typography
+
+![image](https://user-images.githubusercontent.com/59335572/153122412-6ac335ca-180c-4120-92dc-1f2685bc00ec.png)
 
