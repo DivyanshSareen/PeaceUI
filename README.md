@@ -26,3 +26,8 @@ CSS Component Framework
 
 ![image](https://user-images.githubusercontent.com/59335572/152754109-0ce0740d-3ee9-4c8f-891b-556227e99d4a.png)
 
+### Input Component
+
+![image](https://user-images.githubusercontent.com/59335572/153117509-360b5069-ac8d-4ba8-b63a-aa53d18f7e5b.png)
+
+
