@@ -1,6 +1,3 @@
-/* resets browser defaults */
-@import "./reset.css";
-
 /* adds basic styling */
 @import "./style-guide.css";
 
@@ -20,7 +17,7 @@
     color: var(--background-grey);
     background: var(--primary);
 
-    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+    filter: drop-shadow(var(--button-shadow));
 
     cursor: pointer;
 }
