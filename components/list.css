@@ -1,0 +1,45 @@
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* badge component */
+@import "./badge.css";
+
+/* LIST */
+
+/*-- Spaced List(normal lists) --*/
+/* common spacing */
+.list{
+    margin: var(--margin-xs);
+    padding: var(--padding-s);
+}
+
+.list-item{
+    padding: var(--padding-s);
+}
+
+/*-- Stacked List --*/
+/* simply added some border and shadow to spaced list */
+.stacked-list>.list-item{
+    box-shadow: var(--list-shadow);
+}
+
+/* only first and last child item should get a border radius */
+.stacked-list>.list-item:first-child{
+    border-radius: var(--radius-s) var(--radius-s) 0 0;
+}
+
+.stacked-list>.list-item:last-child{
+    border-radius:0 0 var(--radius-s) var(--radius-s);
+}
+
+/* List with Options */
+/* making every list item of option list a flexbox */
+.option-list>.list-item{
+    display: flex;
+}
+
+/* shifting list option(s) to right */
+.list-item-option{
+    display: inline-block;
+    margin-left: auto;
+}
