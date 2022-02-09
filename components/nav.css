@@ -1,0 +1,26 @@
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* NAVBAR */
+
+.nav-wrapper{
+    background: var(--primary);
+    color: var(--background-grey);
+    display: flex;
+    flex-wrap: wrap;
+    padding: var(--padding-m) var(--padding-l) var(--padding-m) var(--padding-l);
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+.nav-list{
+    margin-left: auto;
+    margin-right: var(--margin-xs);
+    display: flex;
+    column-gap: 3rem;
+}
+
+.nav-item{
+     padding: var(--padding-xs);
+}
