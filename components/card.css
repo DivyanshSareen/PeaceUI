@@ -13,7 +13,6 @@
     justify-content: center;
     /* default card must have all 4 sections */
     grid-template-rows: [head]5em [img]10em [text]4em [button]3em;
-    /* https://codepen.io/sdthornton/pen/wBZdXq */
     box-shadow: var(--card-shadow);
     border-radius: var(--radius-s);
 }
