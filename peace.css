@@ -960,3 +960,24 @@ body{
 .nav-item{
      padding: var(--padding-xs);
 }
+
+
+/* SIDEBAR */
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    position: fixed;
+    height: 100%;
+    box-shadow: var(--list-shadow);
+}
+
+.side-logo{
+    align-self: center;
+    padding: var(--padding-xxl) 0 var(--padding-xxl) 0;
+}
+
+.side-item{
+    padding: var(--padding-s);    align-self: center;
+    box-shadow: var(--list-shadow);
+}
