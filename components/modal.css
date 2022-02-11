@@ -1,0 +1,42 @@
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* MODAL */
+
+.modal{
+    background: var(--input-background-grey);
+    border-radius: var(--radius-s);
+    width: 30em;
+    height: 20em;
+    /* centering modal div */
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+
+    display: grid;
+    grid-template-rows: [head]1fr [content]5fr;
+}
+
+/* modal title */
+.modal-head{
+    background: var(--primary);
+    color: var(--input-background-grey);
+    /* for top left and top right corners */
+    height: 100%;
+    border-radius: var(--radius-s) var(--radius-s) 0 0;
+    padding: 0.5em;
+}
+
+/* modal text */
+.modal-content{
+    padding: 1em;
+}
+
+/* any item that needs to blurred when modal is open(js need to be wired up manually) */
+.modal-blur{
+    filter: blur(8px);
+}
