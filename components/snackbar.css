@@ -1,0 +1,6 @@
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* buttons component needed */
+@import "./button.css";
+
