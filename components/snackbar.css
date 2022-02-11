@@ -1,0 +1,55 @@
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* buttons component needed */
+@import "./button.css";
+
+/* SNACK-BAR (・ω・)⊃- [二> >二] -⊂(´∀｀)*/
+
+/* styling and positioning snackbar */
+.snack{
+    background-color: #2b2b2b;
+    margin: 0 4em 2em 4em;
+    padding: 0 1em 0 1em ;
+    border-radius: var(--radius-s);
+    /* positions snackbar */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    /* snackbar layout */
+    display: flex;
+    align-items: center;
+}
+
+.snack-action{
+    margin-left: auto;
+}
+
+.snack-text{
+    color: var(--background-grey);
+}
+
+/* custom button for snackbar */
+.snack-btn{
+    background: inherit;
+    color: var(--primary-300);
+    filter: none;
+    border: none;
+    border-radius: 0;
+    font-weight: var(--semi-bold);
+}
+
+.snack-btn:hover{
+    background: inherit;
+    color: var(--primary-400);
+    border: none;
+}
+
+.snack-btn:active{
+    background-color: var(--primary-100);
+    color: var(--primary-900);
+    opacity: 40%;
+}
+

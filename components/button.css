@@ -170,3 +170,24 @@
     color: var(--danger);
     background: var(--grey);
 }
+
+/*-- Ghost Button /'''\(Ⓘ.Ⓘ)/'''\ spooky--*/
+
+.btn-ghost{
+    color: var(--primary-900);
+    filter: none;
+    border: 2px solid var(--primary-100);
+    background: var(--primary-100);
+    font-weight: var(--semi-bold);
+}
+
+.btn-ghost:hover{
+    background-color: inherit;
+    border: 2px solid var(--primary);
+}
+
+.btn-ghost:active{
+    background: var(--primary-100);
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
