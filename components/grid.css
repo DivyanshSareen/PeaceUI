@@ -1,6 +1,8 @@
 /* adds basic styling */
 @import "./style-guide.css";
 
+/* GRID */
+
 .grid{
     display: grid;
     height: 100%;
@@ -12,10 +14,12 @@
     padding: 1em;
 }
 
+/* 2 column layout */
 .grid-2{
     grid-template-columns: auto auto;
 }
 
+/* 3 column layout */
 .grid-3{
     grid-template-columns: auto auto auto;
 }
