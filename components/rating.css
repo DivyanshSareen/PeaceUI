@@ -1,0 +1,14 @@
+/* adds basic styling */
+@import "./style-guide.css";
+
+/* RATING */
+
+.rating{
+    width: min-content;
+    display: flex;
+}
+
+/* add class to check a star */
+.checked{
+    color: var(--primary);
+}

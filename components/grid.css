@@ -1,0 +1,23 @@
+/* adds basic styling */
+@import "./style-guide.css";
+
+.grid{
+    display: grid;
+    height: 100%;
+    gap: 2em;
+    padding: 3em;
+}
+
+.grid>div{
+    padding: 1em;
+}
+
+.grid-2{
+    grid-template-columns: auto auto;
+}
+
+.grid-3{
+    grid-template-columns: auto auto auto;
+}
+
+
