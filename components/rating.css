@@ -1,6 +1,7 @@
 /* RATING */
 
 .rating{
+    color: black;
     width: min-content;
     display: flex;
 }
