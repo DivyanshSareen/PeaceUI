@@ -1,135 +1,71 @@
-/* AVATAR */
+@import "./style-guide.css";
+@import "./image.css";
 
-/*-- Default Avatar --*/
+/* ALERT */
+
+/* below CSS rules are also used in responsive image componet */
+/* image will scale, but will not go beyond original width */
+.avatar img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*-- Round Responsive Image --*/
+.avatar img{
+    /* image width and height should be same to get a circle */
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+/* default avatar */
 .avatar{
-    width: 3.125rem;
-    height: 3.125rem;
-    margin: var(--margin-s);
-    border-radius: var(--radius-full);
+    max-width: 5rem;
+    max-height: 5rem;
 }
 
-/* sizes for default avatar */
-/* small default avatar */
-
+/* smol avatar */
 .avatar-s{
-    width: 1.875rem;
-    height: 1.875rem;
+    max-width: 3em;
+    max-height: 3em;
 }
 
-/* medium default avatar */
-
+/* medium avatar */
 .avatar-m{
-    width: 3.125rem;
-    height: 3.125rem;
+    max-width: 5rem;
+    max-height: 5rem;
 }
 
-/* large default avatar */
-
+/* large avatar */
 .avatar-l{
-    width: 4.5rem;
-    height: 4.5rem;
+    max-width: 7rem;
+    max-height: 7rem;
 }
 
-/* extra large default avatar */
-
-.avatar-xl{
-    width: 6rem;
-    height: 6rem;
+/*-- avatar with status badge --*/
+.avatar-badge{
+    position: relative;
 }
 
-/* idk extra extra large default avatar */
-
-.avatar-xxl{
-    width: 8rem;
-    height: 8rem;
+.avatar-status{
+    /* default status is grey */
+    background: var(--grey);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
 }
 
-/*-- Circle Avatar --*/
-.avatar-circle{
-    width: 3.125rem;
-    height: 3.125rem;
+/* adjusting status badge size for other avatars */
+.avatar-m > .avatar-status{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
-/* sizes for circle avatar */
-/* small circle avatar */
-
-.avatar-circle-s{
-    width: 1.875rem;
-    height: 1.875rem;
+.avatar-l > .avatar-status{
+    width: 2rem;
+    height: 2rem;
 }
 
-/* medium circle avatar */
-
-.avatar-circle-m{
-    width: 3.125rem;
-    height: 3.125rem;
-}
-
-/* large circle avatar */
-
-.avatar-circle-l{
-    width: 4.5rem;
-    height: 4.5rem;
-}
-
-/* extra large circle avatar */
-
-.avatar-circle-xl{
-    width: 6rem;
-    height: 6rem;
-}
-
-/* idk extra extra large circle avatar */
-
-.avatar-circle-xxl{
-    width: 8rem;
-    height: 8rem;
-}
-
-/*-- Square Avatar --*/
-.avatar-square{
-    width: 3.125rem;
-    height: 3.125rem;
-    border-radius: var(--radius-m);
-}
-
-/* sizes for square avatar */
-/* small square avatar */
-
-.avatar-square-s{
-    width: 1.875rem;
-    height: 1.875rem;
-    border-radius: var(--radius-m);
-}
-
-/* medium square avatar */
-
-.avatar-square-m{
-    width: 3.125rem;
-    height: 3.125rem;
-    border-radius: var(--radius-m);
-}
-
-/* large square avatar */
-
-.avatar-square-l{
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: var(--radius-m);
-}
-
-/* extra large square avatar */
-
-.avatar-square-xl{
-    width: 6rem;
-    height: 6rem;
-    border-radius: var(--radius-m);
-}
-
-/* idk extra extra large square avatar */
-
-.avatar-square-xxl{
-    width: 8rem;
-    height: 8rem;
-    border-radius: var(--radius-m);
-}
