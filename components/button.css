@@ -169,7 +169,6 @@
 }
 
 /*-- Ghost Button /'''\(Ⓘ.Ⓘ)/'''\ spooky--*/
-
 .btn-ghost{
     color: var(--primary-900);
     filter: none;
@@ -187,4 +186,17 @@
     background: var(--primary-100);
     color: var(--primary);
     border: 2px solid var(--primary);
+}
+
+/*-- Floating Action Button --*/
+/* ust add position: absolute to .btn-float (͡° ͜ʖ ͡°) */
+.btn-float{
+    border-radius: 50%;
+    font-size: 1.4rem;
+    padding: 1.2rem;
+}
+
+.btn-float:hover{
+    color: var(--background-grey);
+    background: var(--primary);
 }
