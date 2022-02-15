@@ -1,0 +1,37 @@
+/* navbar */
+.nav-logo > img{
+    width: 3em;
+}
+
+.hero-img > img{
+    height: 100%;
+}
+
+/* hero section */
+.landing{
+    margin: 2em;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 3fr 1fr 1fr;
+    justify-content: center;
+}
+
+.hero-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+footer{
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    color: var(--primary-100);
+}
