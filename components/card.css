@@ -1,127 +1,77 @@
 /* CARD */
 
-/*-- Default Card --*/
+/*-- Default Card Styles --*/
 .card{
-    margin: var(--margin-xs);
-    display: grid;
-    justify-content: center;
-    /* default card must have all 4 sections */
-    grid-template-rows: [head]5em [img]10em [text]4em [button]3em;
-    box-shadow: var(--card-shadow);
+    display: flex;
+    flex-direction: column;
     border-radius: var(--radius-s);
+    box-shadow: var(--card-shadow);
 }
 
-/* default card header style */
-
-.card-header{
-    justify-self: start;
-    padding: 1em;
+.card-head{
+    position: relative;
+    padding: 0.5em;
 }
 
-.card-title{
-    /* typography same as .h4(check style-guide) */
-    font-size: 2.125rem;
-    font-weight: var(--regular);
-    letter-spacing: 0.25px;
+.card-icon{
+    position: absolute;
+    top: 1em;
+    right: 1em;
 }
-
-.card-subtitle{
-    /* typography same as .sub-title2(check style-guide) */
-    font-size: 0.875rem;
-    font-weight: var(--medium);
-    letter-spacing: 0.1px;
-}
-
-/* default card image style */
-
-.card-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* default card content style */
 
 .card-content{
-    padding: 1em;
-    /* typography same as .paragraph2(check style-guide) */
-    font-size: 0.875rem;
-    font-weight: var(--regular);
-    letter-spacing: 0.25px;  
+    padding: 0.5em;
 }
 
-/* default card action style */
-
-.card-action{
+.card-option{
     margin-left: auto;
 }
 
-/*-- Text-only Card --*/
+/*-- Overlay Card --*/
 
-.text-card{
-    grid-template-rows: [head]5em [text]5em;
+.card-overlay {
+    position:relative;
+}
+
+.card-overlay .card-head{
+    color: var(--background-grey);
+    position: absolute;
+    z-index: 1;
+}
+
+.card-overlay .card-badge{
+    position: absolute;
+    right: 5px;
+}
+
+/*-- Text Only Card --*/
+
+.card-text-only{
+    padding: 2em;
 }
 
 /*-- Horizontal Card --*/
 
-/* defining a horizontal grid area */
-.horizontal-card{
-    grid-template-rows: none;
+.card-horizontal{
+    display: grid;
     grid-template-areas: 
-    "image image head head"
-    "image image content content"
-    "image image action action"
-    ; 
+    "image head head head"
+    "image text text text"
+    "image option option option"
+    ;
 }
 
-/* naming each section */
-.horizontal-card .card-header{
-    padding-bottom: 0.5rem;
+.card-horizontal > .card-img{
+    grid-area: image;
+    /* strectching image to fill the cell */
+    display: flex;
+    flex-direction: row;
+}
+
+.card-horizontal > .card-head{
     grid-area: head;
 }
 
-.horizontal-card .card-img{
-    grid-area: image;
-}
-
-.horizontal-card .card-content{
-    grid-area: content;
-}
-
-.horizontal-card .card-action{
-    grid-area: action;
-}
-
-/*-- Card with image on top(the dog with the butter on it) --*/
-
-.image-head-card{
-    grid-template-rows: [img]10em [head]5em  [text]4em [button]3em;
-}
-
-.image-head-card .card-img img{
-    border-radius: var(--radius-s) var(--radius-s) 0 0;
-}
-
-/*-- Card with Text Overlay --*/
-
-.overlay-card .card-img{
-    /* grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2; 
-    ===
-    grid-area: 1 / 1 / 3 / 2;    
-    */
-    grid-area: 1 / 1 / 3 / 2;
-}
-
-.overlay-card .card-header{
-    color: var(--background-grey);
-    align-self: end;
-    grid-area: 1 / 1 / 3 / 2;
-    z-index: 1;
-}
-
-.overlay-card .card-img img{
-    border-radius: var(--radius-s) var(--radius-s) 0 0;
+.card-horizontal > .card-option{
+    grid-area: option;
 }
