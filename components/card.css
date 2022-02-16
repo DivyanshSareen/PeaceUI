@@ -28,7 +28,6 @@
 }
 
 /*-- Overlay Card --*/
-
 .card-overlay {
     position:relative;
 }
@@ -45,13 +44,11 @@
 }
 
 /*-- Text Only Card --*/
-
 .card-text-only{
     padding: 2em;
 }
 
 /*-- Horizontal Card --*/
-
 .card-horizontal{
     display: grid;
     grid-template-areas: 
