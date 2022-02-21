@@ -1,44 +1,24 @@
-# PeaceUI
+# ![image](https://user-images.githubusercontent.com/59335572/154916297-329a32d1-b8c6-493b-aca1-bf520a53560a.png)PeaceUI 
 
-CSS Component Framework
+A simple CSS framework to add easy styling to your websites. 
 
-### Avatar Component
+## PeaceUI Docs
 
-![image](https://user-images.githubusercontent.com/59335572/152366816-35cd95f6-98d8-4411-b6b5-77ae1b230baa.png)
+Get started with PeaceUI with our [documentation site.](https://peaceuidoc.netlify.app/) 
 
-### Badge Component
+Contribute to our documentation [here.](https://github.com/DivyanshSareen/PeaceUIdocs)
 
-![image](https://user-images.githubusercontent.com/59335572/152366655-54edb79f-5620-4839-bf99-2be587e5bfa7.png)
+## Project Deployment
 
-### Alert Component
+This project and related documentation are deployed using Netlify. [![Netlify Status](https://api.netlify.com/api/v1/badges/321afab4-7b26-4c3a-a8e2-22b817507fba/deploy-status)](https://peaceui.netlify.app/) 
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/59335572/152570008-2ea00b76-7a80-4baa-841b-18d1b5d49d29.png">
+## How to use
 
-### Button Component
+1. Check this [link](https://peaceuidoc.netlify.app/index.html) to setup PeaceUI for your project. 
+2. Once PeaceUI is up and running, you will start noticing changes in your UI. 
+   <img src="https://media.giphy.com/media/fPtwhqNKUYJmi6ktBn/giphy.gif">
+3. Next step is to go through the documentation and copy the code snippet for your desired component.
+   <img src="https://media.giphy.com/media/gbigTEiJ97qfrSfdHV/giphy.gif">
+4. Now simply add it to your project.
 
-<img width="464" alt="image" src="https://user-images.githubusercontent.com/59335572/152637787-a4857853-f8ca-4319-9df9-18ca3dd79951.png">
-
-### Card Component
-
-![image](https://user-images.githubusercontent.com/59335572/152681354-a265f063-823b-43fb-8aaa-cca3b73f7c05.png)
-
-### Image Component
-
-![image](https://user-images.githubusercontent.com/59335572/152754109-0ce0740d-3ee9-4c8f-891b-556227e99d4a.png)
-
-### Input Component
-
-![image](https://user-images.githubusercontent.com/59335572/153117509-360b5069-ac8d-4ba8-b63a-aa53d18f7e5b.png)
-
-### Typography
-
-![image](https://user-images.githubusercontent.com/59335572/153122412-6ac335ca-180c-4120-92dc-1f2685bc00ec.png)
-
-### List
-
-![image](https://user-images.githubusercontent.com/59335572/153166364-87133505-23ed-4d9d-bee1-b800ca15b7df.png)
-
-### Navbar
-
-![image](https://user-images.githubusercontent.com/59335572/153230235-e96114ba-88e7-4131-a82d-8036cce0c427.png)
-
+   <img src="https://media.giphy.com/media/SQNPeD5h6YrW7qbun9/giphy.gif">
