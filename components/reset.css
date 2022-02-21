@@ -33,6 +33,7 @@ img {
 
 a, button{
   text-decoration: none;
+  color: #efefef;
 }
 
 a:hover{
